@@ -1,0 +1,11 @@
+{
+  "raw_hdfs": 30000,
+  "spark_mapreduce_equivalente": 30000,
+  "invalidos": 0,
+  "duplicados_descartados": 0,
+  "curados_unicos": 30000,
+  "validaciones_criticas": "APROBADAS",
+  "jsonl_bytes": 133555692,
+  "parquet_bytes": 691450,
+  "particion": "anio"
+}

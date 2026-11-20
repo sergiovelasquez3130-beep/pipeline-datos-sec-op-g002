@@ -1,0 +1,2 @@
+﻿Contratos: 30000
+IDs duplicados: 0

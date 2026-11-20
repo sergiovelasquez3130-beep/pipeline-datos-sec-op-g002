@@ -1,0 +1,11 @@
+{
+  "archivo": "/project/data/incremental/fecha_ingesta=2026-11-20/nuevos.jsonl",
+  "registros_validos_en_lote": 1000,
+  "invalidos": 0,
+  "duplicados_dentro_lote": 0,
+  "contratos_antes": 30000,
+  "insertados": 0,
+  "ya_existentes_en_sqlite": 1000,
+  "contratos_despues": 30000,
+  "idempotencia_conteo": true
+}
