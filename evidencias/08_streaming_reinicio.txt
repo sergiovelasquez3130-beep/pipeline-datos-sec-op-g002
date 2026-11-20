@@ -1,0 +1,12 @@
+﻿PRUEBA DE REINICIO DE STRUCTURED STREAMING
+
+Primera ejecución:
+Total mensajes en ventanas: 30000
+
+Segunda ejecución:
+Total mensajes en ventanas: 30000
+
+Diferencia de conteo: 0
+
+La prueba se realizó utilizando el mismo checkpoint.
+Fuente: SECOP II.
