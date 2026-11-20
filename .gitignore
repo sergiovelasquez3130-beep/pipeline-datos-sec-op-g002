@@ -1,0 +1,11 @@
+﻿data/
+__pycache__/
+*.pyc
+*.db
+.env
+.env.*
+.venv/
+.ipynb_checkpoints/
+*.log
+*.zip
+!evidencias_finales_secop.zip

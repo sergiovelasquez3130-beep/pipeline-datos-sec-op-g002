@@ -1,0 +1,19 @@
+INICIO RÁPIDO - WINDOWS
+
+1. Instalar y abrir Docker Desktop; abrir una terminal PowerShell en esta carpeta.
+2. Ejecutar: docker compose up -d --build
+3. Ejecutar, uno por uno:
+   docker compose exec worker python src/01_ingesta.py
+   docker compose exec worker python src/02_kafka.py
+   docker compose exec worker python src/03_consumidor_hdfs.py
+   docker compose exec worker python src/05_spark_curada.py
+   docker compose exec worker python src/06_servicio.py
+   docker compose exec worker python src/09_watermark.py
+   docker compose exec worker python src/crear_lote_streaming.py
+   docker compose exec worker python src/07_streaming.py
+   docker compose exec worker python src/08_tablero.py
+4. Ejecutar MapReduce mediante Git Bash: leer README, script src/run_mapreduce.sh.
+5. Abrir tablero_secop.html y guardar capturas reales en evidencias.
+6. Repetir los pasos 06_servicio y 07_streaming para verificar conteos idénticos.
+
+NOTA: Colab está incluido para iniciar análisis, pero Kafka y HDFS se prueban con Docker.
